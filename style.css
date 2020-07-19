@@ -4,21 +4,28 @@
   box-sizing: border-box;
 }
 .clearfix::after {
-  content:"";
-  display:block;
-  clear:both;
+  content: "";
+  display: block;
+  clear: both;
 }
-.main-visual {
+header {
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+/* headerタグ内のheadlineクラスにのみ反映される */
+header .headline {
+  font-size: 32px;
+}.main-visual {
   width: 100%; /* 横幅 */
   height: 300px; /* 高さ */
 }
-.main-visual-content {
+.main-visual-content{
   width: 350px; /* 横幅を指定 */
   height: 300px; /* 親の高さに揃える */
 }
 .main {
   width: 840px; /* 横幅 */
-  /* 中央寄せ（余白がないとできない） */
   margin: 0 auto;
 }
 .blog {
@@ -31,7 +38,7 @@
   height: 1400px;
   float: left; /* 要素を左揃えで並べる */
 }
-.footer {
+footer {
   width: 100%; /* 横幅 */
   height: 120px; /* 高さ */
 }
