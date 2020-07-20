@@ -54,15 +54,27 @@ header .headline {
   color: #fff;
 }
 .main {
-  width: 840px; /* 横幅 */
+  width: 800px; /* 横幅 */
   margin: 0 auto;
+  padding: 70px 0; /* 上下に70px、左右に0pxの内側余白 */
 }
 .blog {
   width: 600px;
   float: left; /* 要素を左揃えで並べる */
+  margin-right: 30px; /* 領域の右側余白 */
+}
+.blog-headline {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+.blog-item {
+  padding-bottom: : 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solod #f7f7f7;
 }
 .sidebar {
-  width: 240px;
+  width: 230px;
   float: left; /* 要素を左揃えで並べる */
 }
 footer {
